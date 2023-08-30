@@ -50,6 +50,6 @@ public class Adaptor extends BaseAdapter {
 
         TextView tvDescription = view.findViewById(R.id.tvDescripcion);
         tvDescription.setText(itemModel.getDescription());
-        return null;
+        return view;
     }
 }
